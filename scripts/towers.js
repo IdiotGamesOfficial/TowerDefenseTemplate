@@ -492,7 +492,8 @@ tower.tesla = {
     hasBase: false,
     radius: 5,
     secondary: [23, 32, 42],
-    weight: 10,
+    weight: 5,
+    //weight: 10,
     // Misc
     name: 'tesla',
     sound: 'spark',
@@ -551,7 +552,7 @@ tower.tesla = {
         {
             // Display
             color: [231, 76, 60],
-            radius: 2,
+            radius: 5,
             secondary: [23, 32, 42],
             // Misc
             name: 'death',
