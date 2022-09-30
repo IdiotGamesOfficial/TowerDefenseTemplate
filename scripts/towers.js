@@ -551,9 +551,9 @@ tower.tesla = {
     upgrades: [
         {
             // Display
-            color: [231, 76, 60],
+            color: [232, 77, 61],
             radius: 5,
-            secondary: [23, 32, 42],
+            secondary: [24, 33, 43],
             // Misc
             name: 'death',
             title: 'Destroyer',
