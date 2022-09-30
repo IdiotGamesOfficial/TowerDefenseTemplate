@@ -488,10 +488,10 @@ tower.bomb = {
 
 tower.tesla = {
     // Display
-    color: [255, 255, 0],
+    color: [231, 76, 60],
     hasBase: false,
     radius: 5,
-    secondary: [30, 139, 195],
+    secondary: [23, 32, 42],
     weight: 10,
     // Misc
     name: 'tesla',
@@ -504,7 +504,7 @@ tower.tesla = {
     damageMax: 800,
     damageMin: 400,
     range: 5,
-    type: 'energy',
+    type: 'death',
     // Methods
     drawBarrel: function() {
         stroke(this.border);
@@ -550,18 +550,18 @@ tower.tesla = {
     upgrades: [
         {
             // Display
-            color: [25, 181, 254],
+            color: [231, 76, 60],
             radius: 5,
-            secondary: [51, 110, 123],
+            secondary: [23, 32, 42],
             // Misc
-            name: 'plasma',
+            name: 'death',
             title: 'Destroyer',
             // Stats
-            cooldownMax: 60,
-            cooldownMin: 40,
-            cost: 5000,
-            damageMax: 2500,
-            damageMin: 1500,
+            cooldownMax: 30,
+            cooldownMin: 20,
+            cost: 10000,
+            damageMax: 5000,
+            damageMin: 2500,
             // Methods
             drawBarrel: function() {
                 stroke(this.border);
