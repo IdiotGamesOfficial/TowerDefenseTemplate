@@ -1,7 +1,5 @@
 # towerdefense
 Simple tower defense game in p5.js that can be played
-[here](https://rsaihe.github.io/towerdefense/).
-
 You can also make and edit custom maps using this
 [map editor](https://rsaihe.github.io/td-editor/). Instructions are located on
 the Github [repo](https://github.com/rsaihe/td-editor/).
