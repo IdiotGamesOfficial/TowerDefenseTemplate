@@ -490,20 +490,20 @@ tower.tesla = {
     // Display
     color: [255, 255, 0],
     hasBase: false,
-    radius: 1,
+    radius: 5,
     secondary: [30, 139, 195],
     weight: 10,
     // Misc
     name: 'tesla',
     sound: 'spark',
-    title: 'Tesla Coil',
+    title: 'Destroyer',
     // Stats
     cooldownMax: 80,
     cooldownMin: 60,
-    cost: 350,
-    damageMax: 512,
-    damageMin: 256,
-    range: 4,
+    cost: 1000,
+    damageMax: 800,
+    damageMin: 400,
+    range: 5,
     type: 'energy',
     // Methods
     drawBarrel: function() {
@@ -551,17 +551,17 @@ tower.tesla = {
         {
             // Display
             color: [25, 181, 254],
-            radius: 1.1,
+            radius: 5,
             secondary: [51, 110, 123],
             // Misc
             name: 'plasma',
-            title: 'Plasma Tower',
+            title: 'Destroyer',
             // Stats
             cooldownMax: 60,
             cooldownMin: 40,
-            cost: 250,
-            damageMax: 2048,
-            damageMin: 1024,
+            cost: 2500,
+            damageMax: 2500,
+            damageMin: 1500,
             // Methods
             drawBarrel: function() {
                 stroke(this.border);
