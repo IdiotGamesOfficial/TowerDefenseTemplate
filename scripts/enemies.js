@@ -21,7 +21,7 @@ enemy.weak = {
     // Misc
     name: 'weak',
     // Stats
-    cash: 1,
+    cash: 2,
     health: 35
 };
 
@@ -32,7 +32,7 @@ enemy.strong = {
     // Misc
     name: 'strong',
     // Stats
-    cash: 1,
+    cash: 3,
     health: 75
 };
 
@@ -68,7 +68,7 @@ enemy.strongFast = {
     // Misc
     name: 'strongFast',
     // Stats
-    cash: 2,
+    cash: 5,
     health: 135,
     speed: 2,
     // Methods
@@ -95,7 +95,7 @@ enemy.medic = {
     // Misc
     name: 'medic',
     // Stats
-    cash: 4,
+    cash: 5,
     health: 375,
     immune: ['regen'],
     // Methods
