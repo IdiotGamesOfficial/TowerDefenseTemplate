@@ -490,7 +490,7 @@ tower.tesla = {
     // Display
     color: [231, 76, 60],
     hasBase: false,
-    radius: 5,
+    radius: 2,
     secondary: [23, 32, 42],
     weight: 10,
     // Misc
