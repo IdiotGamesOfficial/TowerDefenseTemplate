@@ -11,31 +11,31 @@ var tower = {};
 
 tower.gun = {
     // Display
-    color: [249, 191, 59],
+    color: [00, 00, 00],
     length: 0.65,
     radius: 0.9,
-    secondary: [149, 165, 166],
+    secondary: [00, 00, 00],
     // Misc
     name: 'gun',
     title: 'Gun Tower',
     // Stats
-    cooldownMax: 18,
-    cooldownMin: 8,
-    cost: 25,
-    range: 3,
+    cooldownMax: 00,
+    cooldownMin: 0,
+    cost: 0,
+    range: 0,
     // Upgrades
     upgrades: [
         {
             // Display
-            color: [249, 105, 14],
+            color: [00, 00, 00],
             // Misc
-            name: 'machineGun',
-            title: 'Machine Gun',
+            name: 'gun2',
+            title: 'Gun Tower 2',
             // Stats
-            cooldownMax: 5,
+            cooldownMax: 0,
             cooldownMin: 0,
-            cost: 75,
-            damageMax: 10,
+            cost: 0,
+            damageMax: 0,
             damageMin: 0
         }
     ]
@@ -43,39 +43,39 @@ tower.gun = {
 
 tower.laser = {
     // Display
-    color: [25, 181, 254],
+    color: [00, 00, 00],
     length: 0.55,
     radius: 0.8,
-    secondary: [149, 165, 166],
+    secondary: [00, 00, 00],
     width: 0.25,
     // Misc
     name: 'laser',
     title: 'Laser Tower',
     // Stats
-    cooldownMax: 1,
-    cost: 75,
-    damageMax: 3,
-    range: 2,
-    type: 'energy',
+    cooldownMax: 0,
+    cost: 0,
+    damageMax: 0,
+    range: 0,
+    type: 'laser',
     // Upgrades
     upgrades: [
         {
             // Display
-            color: [78, 205, 196],
+            color: [00, 00, 00],
             length: 0.65,
             radius: 0.9,
-            secondary: [191, 191, 191],
+            secondary: [00, 00, 00],
             weight: 3,
             width: 0.35,
             // Misc
-            name: 'beamEmitter',
-            title: 'Beam Emitter',
+            name: 'laser2',
+            title: 'Laser Tower 2',
             // Stats
             cooldownMax: 0,
-            cost: 200,
-            damageMax: 0.1,
-            damageMin: 0.001,
-            range: 3,
+            cost: 0,
+            damageMax: 0,
+            damageMin: 0,
+            range: 0,
             // Methods
             attack: function(e) {
                 if (this.lastTarget === e) {
